@@ -1,0 +1,13 @@
+安装terminator
+sudo apt install -y terminator
+
+第一次打开后简单修改1处配置，让它在/home/rambo/.config/目录下产生terminator这个目录，该目录下会有一个config的文件，将该config备份后把这个config文件复制过去即可
+
+
+
+
+
+
+
+
+

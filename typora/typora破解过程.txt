@@ -1,0 +1,17 @@
+dpkg -i typora_1.0.3_amd64.deb
+
+# 破解
+cd /usr/share/typora/resources
+sudo mv app.asar{,-bak}
+
+# 然后将下载好的app.asar复制到/usr/share/typora/resources目录下
+sudo cp /home/rambo/下载/app.asar  .
+
+打开typora--帮助--我的许可证--输入序列号--邮箱一栏中任意填写(保证邮箱格式正确)--输入序列号(在key.txt文件中，任选一条)，点击"激活"
+
+下面是我自定义的配置
+cd   /home/rambo/.config/Typora/
+把conf和themes这2个目录备份，然后把这2个目录复制进去
+
+然后把主题设置成Night
+
